@@ -1,6 +1,6 @@
 # Bộ tài liệu Phân tích Nghiệp vụ (BA) - Hệ thống Quản lý CTĐT
 
-Chào mừng đến với Bộ tài liệu Phân tích Nghiệp vụ dành cho Hệ thống Quản lý Chương trình Đào tạo (CTĐT). Bộ tài liệu này được cấu trúc hóa theo từng phân lớp (layer) để đảm bảo tính module hóa và dễ dàng mở rộng trong tương lai.
+Bộ tài liệu này được cấu trúc hóa theo từng phân lớp (layer) để đảm bảo tính module hóa và dễ dàng mở rộng trong tương lai.
 
 ## Mục lục tài liệu
 
