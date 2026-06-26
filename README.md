@@ -1,6 +1,6 @@
 # Hệ thống Quản lý Chương trình Đào tạo (CTĐT) - TPMS (Training Program Management System)
 
-Chào mừng bạn đến với kho lưu trữ tài liệu dự án **Hệ thống Quản lý Chương trình Đào tạo (TPMS)**. Đây là tài liệu hướng dẫn tổng quan và chi tiết giúp các bên liên quan (Stakeholders, Product Owners, Developers, QA) dễ dàng nắm bắt dự án và định vị tài liệu cần đọc theo lộ trình phù hợp.
+Đây là tài liệu hướng dẫn tổng quan và chi tiết giúp các bên liên quan (Stakeholders, Product Owners, Developers, QA) dễ dàng nắm bắt dự án và định vị tài liệu cần đọc theo lộ trình phù hợp.
 
 ---
 
@@ -20,7 +20,6 @@ graph TD
 
 ### 1. Tổng quan & Luồng Nghiệp vụ (Dành cho tất cả thành viên)
 Giúp hiểu rõ hệ thống giải quyết bài toán gì, có những ai tham gia và quy trình phê duyệt diễn ra như thế nào.
-*   **Mục tiêu chung:** Đọc [docs/temp.md](docs/temp.md) để nắm được bài toán số hóa quy trình xây dựng CTĐT và lộ trình phát triển 3 Giai đoạn (từ Nhập liệu thủ công đến Số hóa tự động và Tích hợp trợ lý AI).
 *   **Tác nhân và Phân quyền:** Đọc [Định nghĩa Vai trò & Phân quyền (RBAC)](docs/ba/01_business_requirements/actors_and_permissions.md) để hiểu 6 nhóm người dùng chính (Admin, Program Manager, Lecturer, Reviewer, Approver, QA) có những quyền hạn gì trên hệ thống.
 *   **Sơ đồ Quy trình:** Đọc [Sơ đồ Luồng Nghiệp vụ (BPMN/Workflows)](docs/ba/01_business_requirements/business_process_models.md) để xem cách Đề cương môn học đi qua các cấp phê duyệt, quy trình xử lý quá hạn (SLA) và cơ chế ủy quyền bằng biểu đồ Sequence trực quan.
 
@@ -62,8 +61,6 @@ Mô tả chi tiết giao diện mong muốn, quy tắc xử lý nghiệp vụ (B
 app-quan-ly-ctdt/
 │
 ├── docs/                               # Thư mục chứa toàn bộ tài liệu dự án
-│   ├── temp.md                         # Báo cáo tóm tắt bối cảnh & quy trình nghiệp vụ tổng quát
-│   │
 │   └── ba/                             # Tài liệu Phân tích Nghiệp vụ chi tiết
 │       ├── README.md                   # Mục lục tài liệu BA chuyên biệt
 │       │
